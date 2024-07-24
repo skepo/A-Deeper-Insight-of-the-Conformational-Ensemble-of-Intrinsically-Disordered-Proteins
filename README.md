@@ -53,3 +53,7 @@ Run the script **compute_ss_db.py**.
 This will scan through the clusters output in **TEST**-CA.pkl, compare them to the latent space **TEST**-DR.pkl for the DB and SS, and compare to the original data in **TEST**-INFO.pkl to compute the SS_Int.
 
 A new file, **TEST**-SS-DB.pkl, will be generated from this script.
+
+## (5) Generating decomposed data
+
+The decomposition is based on radius of gyration caluclations in GROMACS using gmx gyrate. Insert the path to your Rg file under as the "work_dir" variable and the script should run fine. It will output a frame index file which can be used to do Rg group specific analysis in GROMACS using gmx trjconv for slicing the full tradjectory.
