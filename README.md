@@ -56,4 +56,4 @@ A new file, **TEST**-SS-DB.pkl, will be generated from this script.
 
 ## (5) Generating decomposed data
 
-The decomposition is based on radius of gyration caluclations in GROMACS using gmx gyrate. Insert the path to your Rg file under as the "work_dir" variable and the script should run fine. It will output a frame index file which can be used to do Rg group specific analysis in GROMACS using gmx trjconv for slicing the full tradjectory.
+The decomposition is based on radius of gyration caluclations in GROMACS using gmx gyrate. Insert the path to your Rg file under the "work_dir" variable in the **Frame_sort.py**. It will output a frame index file which can be used to do Rg group specific analysis in GROMACS using gmx trjconv for slicing the full tradjectory.
