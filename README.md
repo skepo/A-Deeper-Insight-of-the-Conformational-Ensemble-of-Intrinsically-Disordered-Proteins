@@ -1,7 +1,7 @@
 # A Deeper Insight of the Conformational Ensemble of Intrinsically Disordered Proteins
 **Description** This repository contains many codes and scripts to generate unique conformational ensembles from molecular dynamics trajectories.
 
-![image](Graphics/Main.png)
+![](Graphics/Main.png)
 
 ## (1) Generating Trajectory Information
 
